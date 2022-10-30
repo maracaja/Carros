@@ -1,0 +1,52 @@
+#version 300 es
+
+precision mediump float;
+
+in vec4 fragColor;
+
+out vec4 outColor;
+
+void main() 
+{
+    outColor = fragColor;
+}#version 300 es
+
+layout(location = 0) in vec2 posicao;
+layout(location = 1) in vec3 cor;
+
+uniform float tamanho;
+
+out vec4 fragColor;
+
+void main() 
+{
+    gl_PointSize = tamanho;
+    gl_Position = vec4(posicao.xy, 0, 1);
+    fragColor = vec4(cor, 1);
+}#version 300 es
+
+precision mediump float;
+
+in vec4 fragColor;
+
+out vec4 outColor;
+
+void main() { outColor = fragColor; }#version 300 es
+
+layout(location = 0) in vec2 posicao;
+
+uniform vec4 cor;
+uniform float rotacao;
+uniform float escala;
+uniform vec2 deslocamento;
+
+out vec4 fragColor;
+
+void main() 
+{
+    float seno = sin(rotacao);
+    float cosseno = cos(rotacao);
+    vec2 rot = vec2(posicao.x * cosseno - posicao.y * seno, posicao.x * seno + posicao.y * cosseno);
+    gl_Position = vec4(vec2(escala * rot.x + deslocamento.x, escala * rot.y + deslocamento.y), 0, 1);
+    fragColor = cor;
+}
