@@ -6,12 +6,11 @@
 
 using namespace std;
 
-enum class Input {DIREITA, ESQUERDA, CIMA, BAIXO, NOVO};
+enum class Input {DIREITA, ESQUERDA, CIMA, BAIXO};
 
 struct AppData
 {
-    bitset<5> input;
+    bitset<4> input;
 };
-
 
 #endif

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maracaja/Programacao/CG/Atividade2/abcg
+CMAKE_SOURCE_DIR = /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maracaja/Programacao/CG/Atividade2/abcg/build
+CMAKE_BINARY_DIR = /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build
 
 # Include any dependencies generated for this target.
 include examples/atividade2/CMakeFiles/atividade2.dir/depend.make
@@ -70,60 +70,64 @@ include examples/atividade2/CMakeFiles/atividade2.dir/progress.make
 include examples/atividade2/CMakeFiles/atividade2.dir/flags.make
 
 examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/flags.make
-examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.o: /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/main.cpp
+examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/includes_CXX.rsp
+examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.o: /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/main.cpp
 examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maracaja/Programacao/CG/Atividade2/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.o"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/bin/ccache /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.o -MF CMakeFiles/atividade2.dir/main.cpp.o.d -o CMakeFiles/atividade2.dir/main.cpp.o -c /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.o"
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /usr/bin/ccache /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.o -MF CMakeFiles/atividade2.dir/main.cpp.o.d -o CMakeFiles/atividade2.dir/main.cpp.o -c /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/main.cpp
 
 examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/atividade2.dir/main.cpp.i"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/main.cpp > CMakeFiles/atividade2.dir/main.cpp.i
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/main.cpp > CMakeFiles/atividade2.dir/main.cpp.i
 
 examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/atividade2.dir/main.cpp.s"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/main.cpp -o CMakeFiles/atividade2.dir/main.cpp.s
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/main.cpp -o CMakeFiles/atividade2.dir/main.cpp.s
 
 examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/flags.make
-examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.o: /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/window.cpp
+examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/includes_CXX.rsp
+examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.o: /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/window.cpp
 examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maracaja/Programacao/CG/Atividade2/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.o"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/bin/ccache /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.o -MF CMakeFiles/atividade2.dir/window.cpp.o.d -o CMakeFiles/atividade2.dir/window.cpp.o -c /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.o"
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /usr/bin/ccache /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.o -MF CMakeFiles/atividade2.dir/window.cpp.o.d -o CMakeFiles/atividade2.dir/window.cpp.o -c /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/window.cpp
 
 examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/atividade2.dir/window.cpp.i"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/window.cpp > CMakeFiles/atividade2.dir/window.cpp.i
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/window.cpp > CMakeFiles/atividade2.dir/window.cpp.i
 
 examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/atividade2.dir/window.cpp.s"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/window.cpp -o CMakeFiles/atividade2.dir/window.cpp.s
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/window.cpp -o CMakeFiles/atividade2.dir/window.cpp.s
 
 examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/flags.make
-examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.o: /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/asfalto.cpp
+examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/includes_CXX.rsp
+examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.o: /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/asfalto.cpp
 examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maracaja/Programacao/CG/Atividade2/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.o"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/bin/ccache /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.o -MF CMakeFiles/atividade2.dir/asfalto.cpp.o.d -o CMakeFiles/atividade2.dir/asfalto.cpp.o -c /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/asfalto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.o"
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /usr/bin/ccache /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.o -MF CMakeFiles/atividade2.dir/asfalto.cpp.o.d -o CMakeFiles/atividade2.dir/asfalto.cpp.o -c /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/asfalto.cpp
 
 examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/atividade2.dir/asfalto.cpp.i"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/asfalto.cpp > CMakeFiles/atividade2.dir/asfalto.cpp.i
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/asfalto.cpp > CMakeFiles/atividade2.dir/asfalto.cpp.i
 
 examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/atividade2.dir/asfalto.cpp.s"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/asfalto.cpp -o CMakeFiles/atividade2.dir/asfalto.cpp.s
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/asfalto.cpp -o CMakeFiles/atividade2.dir/asfalto.cpp.s
 
 examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/flags.make
-examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.o: /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/carro.cpp
+examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/includes_CXX.rsp
+examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.o: /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/carro.cpp
 examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.o: examples/atividade2/CMakeFiles/atividade2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maracaja/Programacao/CG/Atividade2/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.o"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/bin/ccache /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.o -MF CMakeFiles/atividade2.dir/carro.cpp.o.d -o CMakeFiles/atividade2.dir/carro.cpp.o -c /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/carro.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.o"
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /usr/bin/ccache /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.o -MF CMakeFiles/atividade2.dir/carro.cpp.o.d -o CMakeFiles/atividade2.dir/carro.cpp.o -c /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/carro.cpp
 
 examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/atividade2.dir/carro.cpp.i"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/carro.cpp > CMakeFiles/atividade2.dir/carro.cpp.i
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/carro.cpp > CMakeFiles/atividade2.dir/carro.cpp.i
 
 examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/atividade2.dir/carro.cpp.s"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/carro.cpp -o CMakeFiles/atividade2.dir/carro.cpp.s
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && /home/maracaja/bin/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2/carro.cpp -o CMakeFiles/atividade2.dir/carro.cpp.s
 
 # Object files for target atividade2
 atividade2_OBJECTS = \
@@ -135,40 +139,29 @@ atividade2_OBJECTS = \
 # External object files for target atividade2
 atividade2_EXTERNAL_OBJECTS =
 
-bin/atividade2: examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.o
-bin/atividade2: examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.o
-bin/atividade2: examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.o
-bin/atividade2: examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.o
-bin/atividade2: examples/atividade2/CMakeFiles/atividade2.dir/build.make
-bin/atividade2: abcg/libabcg.a
-bin/atividade2: /usr/lib64/libGLX.so
-bin/atividade2: /usr/lib64/libOpenGL.so
-bin/atividade2: /usr/lib64/libGLEW.so
-bin/atividade2: abcg/external/fmt/libfmt.a
-bin/atividade2: abcg/external/imgui/libimgui.a
-bin/atividade2: /usr/lib64/libSDL2main.a
-bin/atividade2: /usr/lib64/libSDL2.so
-bin/atividade2: /usr/lib64/libSDL2_image.so
-bin/atividade2: examples/atividade2/CMakeFiles/atividade2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maracaja/Programacao/CG/Atividade2/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../bin/atividade2"
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/bin/cmake -E remove_directory /home/maracaja/Programacao/CG/Atividade2/abcg/build/bin/atividade2
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/atividade2.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/bin/cmake -E make_directory /home/maracaja/Programacao/CG/Atividade2/abcg/build/bin/atividade2.dir
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/bin/cmake -E copy_directory /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2/assets /home/maracaja/Programacao/CG/Atividade2/abcg/build/bin/atividade2.dir/assets
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/bin/cmake -E copy /home/maracaja/Programacao/CG/Atividade2/abcg/build/bin/atividade2 /home/maracaja/Programacao/CG/Atividade2/abcg/build/bin/atividade2.dir/atividade2
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/bin/cmake -E remove /home/maracaja/Programacao/CG/Atividade2/abcg/build/bin/atividade2
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/bin/cmake -E rename /home/maracaja/Programacao/CG/Atividade2/abcg/build/bin/atividade2.dir /home/maracaja/Programacao/CG/Atividade2/abcg/build/bin/atividade2
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && /usr/bin/cmake -E rm -rf /home/maracaja/Programacao/CG/Atividade2/abcg/build/bin/atividade2.dir
+/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js: examples/atividade2/CMakeFiles/atividade2.dir/main.cpp.o
+/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js: examples/atividade2/CMakeFiles/atividade2.dir/window.cpp.o
+/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js: examples/atividade2/CMakeFiles/atividade2.dir/asfalto.cpp.o
+/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js: examples/atividade2/CMakeFiles/atividade2.dir/carro.cpp.o
+/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js: examples/atividade2/CMakeFiles/atividade2.dir/build.make
+/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js: abcg/libabcg.a
+/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js: abcg/external/fmt/libfmt.a
+/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js: abcg/external/imgui/libimgui.a
+/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js: examples/atividade2/CMakeFiles/atividade2.dir/linklibs.rsp
+/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js: examples/atividade2/CMakeFiles/atividade2.dir/objects1.rsp
+/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js: examples/atividade2/CMakeFiles/atividade2.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js"
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/atividade2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-examples/atividade2/CMakeFiles/atividade2.dir/build: bin/atividade2
+examples/atividade2/CMakeFiles/atividade2.dir/build: /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/public/atividade2.js
 .PHONY : examples/atividade2/CMakeFiles/atividade2.dir/build
 
 examples/atividade2/CMakeFiles/atividade2.dir/clean:
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 && $(CMAKE_COMMAND) -P CMakeFiles/atividade2.dir/cmake_clean.cmake
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 && $(CMAKE_COMMAND) -P CMakeFiles/atividade2.dir/cmake_clean.cmake
 .PHONY : examples/atividade2/CMakeFiles/atividade2.dir/clean
 
 examples/atividade2/CMakeFiles/atividade2.dir/depend:
-	cd /home/maracaja/Programacao/CG/Atividade2/abcg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maracaja/Programacao/CG/Atividade2/abcg /home/maracaja/Programacao/CG/Atividade2/abcg/examples/atividade2 /home/maracaja/Programacao/CG/Atividade2/abcg/build /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2 /home/maracaja/Programacao/CG/Atividade2/abcg/build/examples/atividade2/CMakeFiles/atividade2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/examples/atividade2 /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2 /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/examples/atividade2/CMakeFiles/atividade2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/atividade2/CMakeFiles/atividade2.dir/depend
 

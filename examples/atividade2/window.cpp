@@ -56,8 +56,6 @@ void Window::onEvent(const SDL_Event &event)
 {
     if (event.type == SDL_KEYDOWN) 
     {
-        if (event.key.keysym.sym == SDLK_n)
-            appData.input.set(narrow<size_t>(Input::NOVO));
         if (event.key.keysym.sym == SDLK_UP || event.key.keysym.sym == SDLK_w)
             appData.input.set(narrow<size_t>(Input::CIMA));
         if (event.key.keysym.sym == SDLK_DOWN || event.key.keysym.sym == SDLK_s)
@@ -70,8 +68,6 @@ void Window::onEvent(const SDL_Event &event)
 
     if (event.type == SDL_KEYUP) 
     {
-        if (event.key.keysym.sym == SDLK_SPACE)
-            appData.input.reset(narrow<size_t>(Input::NOVO));
         if (event.key.keysym.sym == SDLK_UP || event.key.keysym.sym == SDLK_w)
             appData.input.reset(narrow<size_t>(Input::CIMA));
         if (event.key.keysym.sym == SDLK_DOWN || event.key.keysym.sym == SDLK_s)

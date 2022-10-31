@@ -1,8 +1,8 @@
-# Install script for directory: /home/maracaja/Programacao/CG/Atividade2/abcg/build/CMakeFiles/_CMakeLTOTest-C/src
+# Install script for directory: /home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/CMakeFiles/_CMakeLTOTest-C/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/maracaja/bin/emsdk/upstream/emscripten/cache/sysroot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,14 +27,9 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+  set(CMAKE_CROSSCOMPILING "TRUE")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/maracaja/Programacao/CG/Atividade2/abcg/build/CMakeFiles/_CMakeLTOTest-C/bin/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/maracaja/Programacao/CG/Atividade2/atividade2/Carros/build/CMakeFiles/_CMakeLTOTest-C/bin/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
